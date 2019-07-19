@@ -1,0 +1,51 @@
+/* ====================== Path Styles ======================= */
+body {
+    background: #a00065;
+  }
+  .myspecta {
+    background: #64003f;
+    height: 500px;
+    margin: -50px 0;
+  }
+  .prime {
+    background: #a00065;
+    height: 450px;
+  }
+  .myspecta,
+  .prime {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  p {
+    text-align: left;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media ( min-width : 600px ){
+    body {
+      background: linear-gradient(90deg, #640037 50%, #a00064 50%);
+    }
+      .flexbox {
+      width: 800px;
+      margin: 0 auto;
+      display: -webkit-flex;
+      display: flex;
+      }
+    .myspecta,
+    .prime {
+      -webkit-flex: 1;
+      flex: 1;
+      background: none;
+    }
+  
+    .myspecta 
+    {
+      margin: 0px;
+      float: left;
+    }
+  }

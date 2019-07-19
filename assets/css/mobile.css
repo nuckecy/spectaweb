@@ -1,0 +1,57 @@
+/* ================== SMALL SCREENS 320 - 480 =================== */
+@media (min-width: 320px) and (max-width: 900px)
+{
+  .newspaper 
+  {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    padding:20px;
+    text-align:justify;
+  }
+  
+  .tab-vertical .tab-vertical__nav-link 
+  {
+    color: #646f79;
+    font-weight: 400;
+    border-radius: 0;
+    padding: 5px 50px;
+    background: #d5d5d533;
+    margin-bottom: 2px;
+  }
+
+  .section_discover__img:before 
+  {
+    top: 10%;
+    left: 20%;
+    border: 5px solid #000;
+  }
+
+  .contain .tabs label 
+  {
+    font-size: 0.9em;
+    letter-spacing: 1.5px;
+  }
+
+  .hidden-sm { display: hidden;}
+  
+  /* ************************************ */
+
+  .display-3 {
+    font-size: 1.9375rem;
+    font-weight: 600;
+    line-height: 1;
+    }
+  .p-sm { padding: 20px;}
+
+  .contain .tab { padding: 0px; }
+
+  /* ************************************ */
+
+
+  /* ********************* HOME PAGE ************************ */
+  .feature-bg {min-height: 250px !important;}
+  .features-img {height: 240px;padding: 50px 20px 20px 20px;}
+  /* ********************************************* */
+  /* ========= end mobile ======== */
+}

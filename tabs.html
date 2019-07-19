@@ -1,0 +1,100 @@
+<style>
+input[name="btabs"] {
+  display: none;
+}
+input[name="btabs"]#btab-1:checked ~ .content .btab:nth-of-type(1) {
+  display: inline-block;
+}
+input[name="btabs"]#btab-1:checked ~ .btabs label:nth-child(1) {
+  color: #242b36;
+}
+input[name="btabs"]#btab-1:checked ~ .btabs label:nth-child(1):after {
+  width: calc(100% - 40px);
+  transition: .3s;
+}
+input[name="btabs"]#btab-2:checked ~ .content .btab:nth-of-type(2) {
+  display: inline-block;
+}
+input[name="btabs"]#btab-2:checked ~ .btabs label:nth-child(2) {
+  color: #242b36;
+}
+input[name="btabs"]#btab-2:checked ~ .btabs label:nth-child(2):after {
+  width: calc(100% - 40px);
+  transition: .3s;
+}
+input[name="btabs"]#btab-3:checked ~ .content .btab:nth-of-type(3) {
+  display: inline-block;
+}
+input[name="btabs"]#btab-3:checked ~ .btabs label:nth-child(3) {
+  color: #242b36;
+}
+input[name="btabs"]#btab-3:checked ~ .btabs label:nth-child(3):after {
+  width: calc(100% - 40px);
+  transition: .3s;
+}
+input[name="btabs"]#btab-4:checked ~ .content .btab:nth-of-type(4) {
+  display: inline-block;
+}
+input[name="btabs"]#btab-4:checked ~ .btabs label:nth-child(4) {
+  color: #242b36;
+}
+input[name="btabs"]#btab-4:checked ~ .btabs label:nth-child(4):after {
+  width: calc(100% - 40px);
+  transition: .3s;
+}
+input[name="btabs"]#btab-5:checked ~ .content .btab:nth-of-type(5) {
+  display: inline-block;
+}
+input[name="btabs"]#btab-5:checked ~ .btabs label:nth-child(5) {
+  color: #242b36;
+}
+input[name="btabs"]#btab-5:checked ~ .btabs label:nth-child(5):after {
+  width: calc(100% - 40px);
+  transition: .3s;
+}
+
+.btabs {
+  box-shadow: 0 20px 50px -25px rgba(0, 0, 0, 0.3);
+  overflow-X: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  white-space: nowrap;
+}
+.btabs label {
+  display: inline-block;
+  padding: 18px;
+  position: relative;
+  color: #bbc3d1;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.btabs label:after {
+  content: '';
+  background: #D22C3F;
+  width: 0;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .1s;
+}
+
+.sb-container {
+  background: #f4f4f4;
+  width: 90%;
+  border-radius: 3px;
+  box-shadow: 0 20px 75px -25px rgba(0, 0, 0, 0.3);
+  margin: 25px auto;
+  overflow: hidden;
+}
+.sb-container .btab {
+  display: none;
+  background: #F6F6F6;
+  padding: 0 20px;
+}
+
+</style>
